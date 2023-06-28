@@ -246,10 +246,11 @@ body {
         display: flex;
         gap: 24px;
         padding-left: 0;
-
+        flex-wrap: wrap;
     }
     .directions-item {
-       flex-basis: calc((100% - 72px) / 4);
+       /* flex-basis: calc((100% - 72px) / 4); */
+       width: 100%;
     }
    
     .directions-item-div {
