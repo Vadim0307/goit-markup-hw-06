@@ -507,7 +507,7 @@ body {
         margin-bottom: 16px;    
     }
     
-        .footer-icon {
+    .footer-icon {
         display: flex;  
         gap: 16px;
     }
@@ -591,7 +591,7 @@ body {
         transition: background-color var(--transition);
     }
     
-    .subcribe-icon {
+    .subscribe-icon {
         margin-left: 16px;
         fill: var(--white-color);
     }

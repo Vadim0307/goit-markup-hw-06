@@ -65,6 +65,13 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="mob-menu-btn" data-menu-open>
+           <svg class="burger-icon" width="32" height="22">
+                <use href="./images/icons.svg#icon-icon-menu"></use>
+           </svg>
+        </button>
+        
       </div>
     </header>
 
@@ -142,28 +149,16 @@
           <h2 class="doing-title">What are we doing</h2>
           <ul class="doing-menu list">
             <li class="doing-item">
-              <img
-                src="./images/imag1.jpg"
-                alt="monitor"
-                width="360"
-                height="300"
-              />
+               <img srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
+                src="./images/imag1.jpg" alt="monitor" width="360" height="300" />
             </li>
             <li class="doing-item">
-              <img
-                src="./images/imag2.jpg"
-                alt="telefon"
-                width="360"
-                height="300"
-              />
+               <img srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
+                src="./images/imag2.jpg" alt="telefon" width="360" height="300" />
             </li>
             <li class="doing-item">
-              <img
-                src="./images/imag3.jpg"
-                alt="link"
-                width="360"
-                height="300"
-              />
+               <img srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
+                src="./images/imag3.jpg" alt="link" width="360" height="300" />
             </li>
           </ul>
         </div>
@@ -468,7 +463,7 @@
             </label>
             <button type="submit" class="subscribe-btn">
               Subscribe
-              <svg class="subcribe-icon" width="24" height="24">
+              <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
               </svg>
             </button>
@@ -578,6 +573,51 @@
       </div>
     </div>
 
+     <!--Utochnitu-->
+    <div class="mob-menu is-hidden" data-menu>
+      <div class="mob-menu-top">
+          <button type="button" class="mob-menu-close" data-menu-close><svg class="close-mob-icon" width="8"
+                  height="8">
+                  <use href="./images/icons.svg#icon-close"></use>
+              </svg></button>
+          <ul class="mob-menu-list list">
+              <li class="mob-menu-item"><a href="./index.html" class="mob-link link mob-current">Studio</a></li>
+              <li class="mob-menu-item"><a href="./portfolio.html" class="mob-link link">Portfolio</a></li>
+              <li class="mob-menu-item"><a href="" class="mob-link link">Contacts</a></li>
+          </ul>
+      </div>
+      <div class="mob-menu-contacts">
+          <address class="mob-address-block">
+              <ul class="mob-address-nav list">
+                  <li class="mob-address-item"><a href="tel:+110001111111" class="mob-tel link">+11 (000)
+                          111-11-11</a></li>
+                  <li class="mob-address-item"><a href="mailto:info@devstudio.com"
+                          class="mob-mail link">info@devstudio.com</a></li>
+              </ul>
+          </address>
+          <ul class="mob-soc-links list">
+              <li class="mob-ellipse"><a class="footer-soc-link" href="" aria-label="instagram" target="_blank"
+                      rel="noopener noreferrer"><svg class="footer-soc-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg></a> </li>
+              <li class="mob-ellipse"><a class="footer-soc-link" href="" aria-label="twitter" target="_blank"
+              rel="noopener noreferrer"><svg class="footer-soc-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg></a> </li>
+              <li class="mob-ellipse"><a class="footer-soc-link" href="" aria-label="facebook" target="_blank"
+                      rel="noopener noreferrer"><svg class="footer-soc-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg></a> </li>
+              <li class="mob-ellipse"><a class="footer-soc-link" href="" aria-label="linkedin" target="_blank"
+             rel="noopener noreferrer"><svg class="footer-soc-icon" width="24" height="24">
+                          <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg></a> </li>
+          </ul>
+      </div>
+  </div>
+
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
