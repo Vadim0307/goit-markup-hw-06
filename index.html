@@ -179,7 +179,7 @@
 
             <li class="team-item">
               <img srcset="./images/team1.jpg 1x, ./images/team1-2x.jpg 2x"
-                   src="./images/team1.jpg" alt="foto Mark Guerrero" />
+                   src="./images/team1.jpg" alt="foto Mark Guerrero" class="img-team"/>
               <div class="osoba">
                 <h3 class="team-subtitle section-title">Mark Guerrero</h3>
                 <p class="team-subtext section-text">Product Designer</p>
@@ -227,7 +227,7 @@
 
             <li class="team-item">
               <img srcset="./images/team2.jpg 1x, ./images/team2-2x.jpg 2x"
-                   src="./images/team2.jpg" alt="foto Tom Ford" />
+                   src="./images/team2.jpg" alt="foto Tom Ford" class="img-team"/>
               <div class="osoba">
                 <h3 class="team-subtitle section-title">Tom Ford</h3>
                 <p class="team-subtext section-text">Frontend Developer</p>
@@ -275,7 +275,7 @@
 
             <li class="team-item">
               <img srcset="./images/team3.jpg 1x, ./images/team3-2x.jpg 2x"
-                   src="./images/team3.jpg" alt="foto Camila Garcia" />
+                   src="./images/team3.jpg" alt="foto Camila Garcia" class="img-team"/>
               <div class="osoba">
                 <h3 class="team-subtitle section-title">Camila Garcia</h3>
                 <p class="team-subtext section-text">Marketing</p>
@@ -324,7 +324,7 @@
 
             <li class="team-item">
               <img srcset="./images/team4.jpg 1x, ./images/team4-2x.jpg 2x"
-                   src="./images/team4.jpg" alt="foto Daniel Wilson" />
+                   src="./images/team4.jpg" alt="foto Daniel Wilson" class="img-team"/>
               <div class="osoba">
                 <h3 class="team-subtitle section-title">Daniel Wilson</h3>
                 <p class="team-subtext section-text">UI Designer</p>
@@ -590,16 +590,20 @@
 
     <div class="mob-menu is-hidden" data-menu>
       <div class="mob-menu-top">
-          <button type="button" class="mob-menu-close" data-menu-close><svg class="close-mob-icon" width="8"
-                  height="8">
-                  <use href="./images/icons.svg#icon-close"></use>
-              </svg></button>
+          
+          <button type="button" class="mob-menu-close" data-menu-close>
+            <svg class="close-mob-icon" width="8" height="8">
+                 <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+         
           <ul class="mob-menu-list list">
               <li class="mob-menu-item"><a href="./index.html" class="mob-link link mob-current">Studio</a></li>
               <li class="mob-menu-item"><a href="./portfolio.html" class="mob-link link">Portfolio</a></li>
               <li class="mob-menu-item"><a href="" class="mob-link link">Contacts</a></li>
           </ul>
       </div>
+
       <div class="mob-menu-contacts">
           <address class="mob-address-block">
               <ul class="mob-address-nav list">
@@ -609,29 +613,49 @@
                           class="mob-mail link">info@devstudio.com</a></li>
               </ul>
           </address>
+          
           <ul class="mob-soc-links list">
-              <li class="mob-ellipse"><a class="footer-soc-link" href="" aria-label="instagram" target="_blank"
-                      rel="noopener noreferrer"><svg class="footer-soc-icon" width="24" height="24">
-                          <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg></a> </li>
-              <li class="mob-ellipse"><a class="footer-soc-link" href="" aria-label="twitter" target="_blank"
-              rel="noopener noreferrer"><svg class="footer-soc-icon" width="24" height="24">
-                          <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg></a> </li>
-              <li class="mob-ellipse"><a class="footer-soc-link" href="" aria-label="facebook" target="_blank"
-                      rel="noopener noreferrer"><svg class="footer-soc-icon" width="24" height="24">
-                          <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg></a> </li>
-              <li class="mob-ellipse"><a class="footer-soc-link" href="" aria-label="linkedin" target="_blank"
-             rel="noopener noreferrer"><svg class="footer-soc-icon" width="24" height="24">
-                          <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg></a> </li>
-          </ul>
-      </div>
-  </div>
+              
+             <li class="mob-ellipse">
+                <a class="footer-icon-a" href="" aria-label="instagram" target="_blank" rel="noopener noreferrer">
+                  <svg class="footer-icon-svg" width="24" height="24">
+                       <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              
+              <li class="mob-ellipse">
+                <a class="footer-icon-a" href="" aria-label="twitter" target="_blank" rel="noopener noreferrer">
+                  <svg class="footer-icon-svg" width="24" height="24">
+                       <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              
+              <li class="mob-ellipse">
+                <a class="footer-icon-a" href="" aria-label="facebook" target="_blank" rel="noopener noreferrer">
+                  <svg class="footer-icon-svg" width="24" height="24">
+                       <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              
+              <li class="mob-ellipse">
+                <a class="footer-icon-a" href="" aria-label="linkedin" target="_blank" rel="noopener noreferrer">
+                  <svg class="footer-icon-svg" width="24" height="24">
+                       <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
 
+          </ul>
+
+      </div>
+
+    </div>
 
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
+
   </body>
 </html>
