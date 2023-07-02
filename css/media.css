@@ -39,7 +39,7 @@
     .mob-menu-btn {
         display: none;
     }
- 
+
     .mob-menu {
         display: none;
     }
@@ -81,7 +81,7 @@
         flex-direction: column;
         gap: 12px;
     }
- 
+
     .header-address {
         font-style: normal;
     }
@@ -119,14 +119,16 @@
         border-radius: 2px;
         background-color: var(--link-color);
     }
+
     .header-logo {
         margin-right: 120px;
         display: flex;
         align-items: center;
-    } 
+    }
+
     .hero {
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero-img-tab.jpg);
+            url(../images/hero-bg-tab.jpg);
         height: 436px;
     }
 
@@ -135,7 +137,7 @@
     (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero-img-tab-2x.jpg);
+            url(../images/hero-bg-tab-2x.jpg);
         }
     }
 
@@ -160,7 +162,7 @@
     .team-item {
         width: calc((100% - 24px) / 2);
     }
- 
+
     .team-container {
         max-width: 584px;
     }
@@ -197,18 +199,15 @@
         flex-direction: row;
         align-items: center;
     }
- 
-    .footer-input {
+
+    .subscribe-input {
         width: 264px;
     }
 
-    .social-media-title {
+    .footer-logo-social {
         justify-content: start;
     }
 
-    .subscribe-text {
-        justify-content: start;
-    }
 }
 
 /**---------------------1158px------------------------**/
@@ -229,7 +228,7 @@
     }
 
     .header {
-        padding: 25.5px 0;
+        padding: 25px 0;
     }
 
     .address-link {
@@ -237,7 +236,7 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
- 
+
     .header-address-menu {
         display: flex;
         flex-direction: row;
@@ -250,7 +249,7 @@
 
     .hero {
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/hero-img.jpg);
+            url(../images/hero-bg-desktop.jpg);
         padding: 188px 0;
         height: 600px;
         max-width: 1440px;
@@ -261,7 +260,7 @@
     (min-resolution: 2dppx) {
         .hero {
             background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                url(../images/hero-img-2x.jpg);
+                url(../images/hero-bg-desktop-2x.jpg);
         }
     }
 
@@ -278,6 +277,7 @@
     .hero-btn:focus {
         background-color: var(--link-color);
     }
+
     .directions {
         padding: 120px 0;
     }
@@ -352,7 +352,7 @@
     }
 
     .footer {
-        padding: 101.5px 0 100px;
+        padding: 100px 0;
     }
 
     .footer-container {

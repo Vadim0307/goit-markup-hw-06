@@ -47,16 +47,16 @@
     }
 
     :root {
-    --title-color: #2E2F42;
-    --text-color: #434455;
-    --logo-color: #4d5ae5;
-    --link-color: #404bbf;
-    --white-color: #FFFFFF;
-    --backgr-color: #F4F4FD;
-    --button-color: #e7e9fc;
-    --icon-color: #31d0aa;
-    --border-color: #8e8f99;
-    --transition: 250ms cubic-bezier(0.4, 0, 0.2,1);
+        --title-color: #2E2F42;
+        --text-color: #434455;
+        --logo-color: #4d5ae5;
+        --link-color: #404bbf;
+        --white-color: #FFFFFF;
+        --backgr-color: #F4F4FD;
+        --button-color: #e7e9fc;
+        --icon-color: #31d0aa;
+        --border-color: #8e8f99;
+        --transition: 250ms cubic-bezier(0.4, 0, 0.2,1);
     }
 
     *,
@@ -288,8 +288,7 @@
         color: var(--white-color);
         text-align: center;
         max-width: 320px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         margin-bottom: 72px;
     }
 
@@ -502,64 +501,64 @@
    
     /**-------INDEX---Footer---------*/
     
-        .footer {
-            background-color: var(--title-color);
-            padding: 96px 0;
-        }
+    .footer {
+        background-color: var(--title-color);
+        padding: 96px 0;
+    }
 
-        .footer-container{
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 72px;
-        }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 72px;
+    }
 
-        .footer-logo {
-            display: block;
-            margin-bottom: 16px; 
-            text-align: center;
-        }
-
-
-        .footer-text {
-            font-family: 'Roboto', sans-serif;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: var(--backgr-color);
-            max-width: 268px;
-            display: flex;
-        }
+    .footer-logo {
+        display: block;
+        margin-bottom: 16px; 
+        text-align: center;
+    }
 
 
-        .footer-logo-social {
-            display: flex;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: var(--white-color);
-            margin-bottom: 16px;
-            justify-content: center;
-        }
-
-        .footer-social-meregi {
-            display: flex;
-            flex-direction: column;
-        }
+    .footer-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--backgr-color);
+        max-width: 268px;
+        display: flex;
+    }
 
 
-        .footer-icon {
-            display: flex;  
-            gap: 16px;
-        }
+    .footer-logo-social {
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--white-color);
+        margin-bottom: 16px;
+        justify-content: center;
+    }
 
-        .footer-icon-li {
-            width: 40px;
-            height: 40px;
-        }
+    .footer-social-meregi {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .footer-icon {
+        display: flex;  
+        gap: 16px;
+    }
+
+    .footer-icon-li {
+        width: 40px;
+        height: 40px;
+    }
 
     .footer-icon-a {
         width: 100%;
@@ -607,7 +606,6 @@
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: var(--white-color);
-
     }
 
     .subscribe-input::placeholder {
@@ -616,8 +614,8 @@
         font-weight: 400;
         line-height: 2; 
         letter-spacing: 0.04em;
-            color: var(--white-color);
-            display: flex;
+        color: var(--white-color);
+        display: flex;
     }
 
     .subscribe-btn {
@@ -679,7 +677,6 @@
         flex-direction: column;
     }
 
-
     .modal-btn {
         position: absolute;
         right: 24px;
@@ -719,7 +716,6 @@
     }
 
    /**-----------FORMU vvedennya---------------*/
-
    
     .modal-form {
         margin-bottom: 8px;
@@ -808,6 +804,7 @@
         display: inline-block;
         align-items: center;
     }
+
     .check-text span {
         display: inline-flex;
         fill: transparent;
@@ -846,8 +843,7 @@
         display: block;
         justify-content: center;
         align-items: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         min-width: 169px;
         height: 56px;
         border-radius: 4px;
@@ -865,7 +861,6 @@
     }
 
    
-
     /**---PORTFOLIO------Header---------*/
     
            
@@ -961,6 +956,7 @@
         position: relative;
         overflow: hidden;
     }
+    
     .cashless-cover-text {
         position: absolute;
         top: 0;
