@@ -150,7 +150,7 @@
     }
 
     .hamburger-icon {
-        fill: var(--title-color);
+        stroke: var(--title-color);
     }
 
     .mob-menu-btn {
@@ -518,6 +518,7 @@
         display: block;
         margin-bottom: 16px; 
         text-align: center;
+        color: var(--logo-color);
     }
 
 
@@ -956,7 +957,7 @@
         position: relative;
         overflow: hidden;
     }
-    
+
     .cashless-cover-text {
         position: absolute;
         top: 0;
