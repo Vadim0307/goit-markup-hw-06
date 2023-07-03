@@ -348,6 +348,7 @@
     .directions-menu .directions-subtext {
         font-family: "Roboto", sans-serif;
         font-size: 16px;
+        font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         align-self: stretch;
@@ -416,7 +417,17 @@
         gap: 72px;
         width: 100%;
     }
-
+    
+    .team-title {
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 72px;
+    }
 
     .team-item {
         background-color: var(--white-color);
@@ -466,6 +477,17 @@
     .customers {
         padding-top: 96px;
         padding-bottom: 96px;
+    }
+
+    .customers-title {
+        font-size: 36px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 72px;
     }
 
     .customers-menu {
