@@ -162,6 +162,10 @@
         gap: 8px;
     }
 
+    .directions-menu .directions-subtext {
+        font-weight: 500;
+    }
+
     .team-item {
         width: calc((100% - 24px) / 2);
     }
@@ -311,6 +315,10 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
+    }
+
+    .directions-menu .directions-subtext {
+        font-weight: 400;
     }
 
     .team {
